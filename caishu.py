@@ -1,5 +1,7 @@
 import random
-r=random.randint(1,100)
+start=int(input('请确定范围起始值：'))
+end=int(input('请确定范围结束值：'))
+r=random.randint(start,end)
 i=0
 while(True):
 	num=int(input('你猜的数字：'))
